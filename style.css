@@ -47,7 +47,7 @@ nav {
 #logo {
     height: 250px; /* ajuste conforme o tamanho da sua imagem */
     min-width: none;
-    max-width: 100%;
+    max-width: 90%;
     padding: 5px;
     margin-top: 10px;
 }
