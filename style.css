@@ -48,6 +48,8 @@ nav {
     height: 250px; /* ajuste conforme o tamanho da sua imagem */
     min-width: none;
     max-width: 100%;
+    padding: 5px;
+    margin-top: -30px;
 }
 
 .titulo-site {
