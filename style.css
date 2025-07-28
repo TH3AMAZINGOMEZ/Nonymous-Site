@@ -46,7 +46,8 @@ nav {
 
 #logo {
     height: 250px; /* ajuste conforme o tamanho da sua imagem */
-    width: 100%;
+    min-width: none;
+    max-width: 100%;
 }
 
 .titulo-site {
