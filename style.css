@@ -45,11 +45,12 @@ nav {
 }
 
 #logo {
-    height: 250px; /* ajuste conforme o tamanho da sua imagem */
-    min-width: none;
-    max-width: 90%;
-    padding: 5px;
-    margin-top: 10px;
+    width: 100%;
+     max-width: 600px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  
 }
 
 .titulo-site {
