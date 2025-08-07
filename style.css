@@ -1,8 +1,11 @@
 @charset "UTF-8";
 
-@media (min-width: 768px) {
-  .logo {
-    max-width: 600px;
+
+@media (max-width: 768px) {
+  section.imagem {
+    background-attachment: scroll; /* Parallax não funciona bem no mobile */
+    min-height: 40vh;
+    background-size: cover;
   }
 }
 
@@ -105,6 +108,8 @@ main {
     max-width: 800px;
     margin: auto;
     background-color:  linear-gradient(to right, purple, black);
+    margin-bottom: 0;
+  padding-bottom: 0;
 }
 article {
     color: black;
@@ -119,6 +124,14 @@ article h1{
     margin-bottom: 5px;
 }
 
+article h2{
+    color: #140e1d;
+    font-family: 'fofbb_ital', sans-serif;
+    padding: 15px;
+    margin-bottom: 5px; 
+
+} 
+
 #historia {
 margin: 40px auto;
 max-width: 800px;
@@ -126,11 +139,25 @@ padding: 20px;
 }
 
 main img {
- width: 100%;
- padding: 5px;
- margin-top: -30px;
+width: 100%;
+  padding: 5px;
+  margin-top: -30px; 
 }
 
+section.imagem {
+  background-image: url('../Nonymous-Site/abraco1.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-size: 85vh; /* cobre todo o espaço disponível */
+  background-repeat: no-repeat;
+  min-height: 45vh; /* altura mínima razoável */
+  max-height: 50%;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+}
 footer{
     background-color: black;
     padding: 15px;
@@ -144,4 +171,16 @@ margin-top: 35px;
 footer > p{
     opacity: 50%;
     font-size: 80%;
+}
+#criacao {
+ color: #140e1d;
+    font-family: 'fofbb_ital', sans-serif;
+    padding: 15px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+h1, h2 {
+  margin: 10px 0;
+  padding: 5px;
 }
